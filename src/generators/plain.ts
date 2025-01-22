@@ -95,7 +95,7 @@ export function stringifyPlain(
       if (isPrimitivePrismaFieldType(field.type)) {
         stringifiedType = stringifyPrimitiveType({
           fieldType: field.type as PrimitivePrismaFieldType,
-          options: generateTypeboxOptions({ input: annotations }),
+          options: generateTypeboxOptions({ input: annotations, exludeAdditionalProperties: true }),
         });
       } else if (processedEnums.find((e) => e.name === field.type)) {
         // biome-ignore lint/style/noNonNullAssertion: we checked this manually

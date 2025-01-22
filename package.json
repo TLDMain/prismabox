@@ -6,6 +6,9 @@
   "author": {
     "name": "Ade Yahya Prasetyo, m1212e"
   },
+  "bin": {
+    "prismabox": "dist/cli.js"
+  },
   "keywords": [
     "prisma2",
     "prisma",

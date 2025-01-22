@@ -25,7 +25,7 @@ typings/
 *.tsbuildinfo
 
 # Typescript output
-dist/
+# dist/
 
 # Optional npm cache directory
 .npm
@@ -166,7 +166,7 @@ out
 # Nuxt.js build / generate output
 
 .nuxt
-dist
+# dist
 
 # Gatsby files
 
@@ -222,7 +222,7 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
-dist
+# dist
 prisma/prismabox
 playground
 prisma/generated
